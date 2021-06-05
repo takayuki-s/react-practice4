@@ -12,9 +12,13 @@ export const Emotion = () => {
     justify-content: space-around;
     align-items: center;
   `;
+  const titleStyle = css({
+    margin: 0,
+    color: "#3d84a8"
+  });
   return (
     <div css={containerStyle}>
-      <p>- Emotion -</p>
+      <p css={titleStyle}>- Emotion -</p>
       <button>FIGHT!!!!!</button>
     </div>
   );
